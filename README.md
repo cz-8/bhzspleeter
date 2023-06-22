@@ -64,11 +64,12 @@ link{1} = https://github.com/deezer/spleeter
 last_update @ 22/06/2023
 
 install dependencies:
+
 install.txt
+
 put ffmpeg_bin into the "path" ambient variables
 
 Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
 
 installvisualc++.png
 ![install visualc++](https://github.com/cz-8/bhzspleeter/assets/137376594/379e2616-94ea-46b3-944b-d738a5399c9d)
