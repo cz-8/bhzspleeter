@@ -93,7 +93,7 @@ Music: asafe
 
 _________________________________________
 
-### last_update @ 22/06/2023 contact: bhzeye@tutanota.com (or u can dm on insta)
+### last_update @ 23/06/2023 contact: bhzeye@tutanota.com (or u can dm on insta)
 
 
 
