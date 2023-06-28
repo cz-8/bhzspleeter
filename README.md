@@ -1,30 +1,55 @@
 # bhzspleeter
 ### ui for spleeter
-
-This is a simple ui for spleeter by deezer.
 _________________________________________
 ### Links:
 ### pre built exe:
 
 https://drive.google.com/file/d/1chVzLE8dWnbIHFCdMbPlFEFqDLfFUHk8/view?usp=drive_link
 
-### background_music: 
-
-https://drive.google.com/file/d/1Kdh3gn7s-dGoSGIjFmlhVyT3JE78ZX01/view?usp=drive_link
-
 Password for pre built exe: 12345
 _________________________________________
 ### INFO
-in the source folder u will find the source code for the .py files used to create the ui and separate the audio;
-also theres gonna be all the necesary files for u to create a vitrtualenv to modify the scripts
 
-as shown above there is also a built .exe googledrive link for u to download and run the program.
+### to run source code:
 
-in the future i will be adding a .exe that install fine tuned pre trained models on ur bhzspleeter folder;
-and a less bloated ui for u to modify more easily;
+- create a virtualenv ¹
 
-also later i will add the sha256 signature of the built .zip folder and source files.
+- install requirements.txt ²
+
+- create "pretrained_models" folder ³
+
+
+- download pretrained models from: 
+
+	https://github.com/deezer/spleeter/releases/tag/v1.4.0
+
+- download the tar.gz files for 2,4,5 stems pretrained models, u can download the "finetuned" models
+for better results when using the program.
 _________________________________________
+
+## Install dependencies 
+### !!NEEDED FOR .EXE AND TO BUILD AND RUN SOURCE CODE!!:
+
+put ffmpeg_bin\ffmpeg-2022-12-11-git-c3e20f78b0-essentials_build\bin into the "path" ambient variables (user and system)
+
+Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": 
+
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+![Screenshot_1](https://github.com/cz-8/bhzspleeter/assets/137376594/b9300c4d-db68-4aef-a77a-7d3d9ec8771a)
+select these options
+
+
+_________________________________________
+in the future i will be adding a .exe that install fine tuned pre trained models on ur bhzspleeter folder;
+_________________________________________
+as shown above there is also a built .exe app for u to download and run the program.
+_________________________________________
+**LATER**
+- add a .py file with a less bloated ui code for u to modify more easily;
+- add the check-sum of the built .zip folder
+_________________________________________
+#
 
 ### UI Config parameters:
 
@@ -56,25 +81,6 @@ ENCODING=mp3
 _________________________________________
 
 
-### Change default UI config:
-		
-to change the default config u will have to open "ui_config.cfg" in a text editor and edit the settings there
-
-_________________________________________
-
-	
-### Install dependencies:
-
-put ffmpeg_bin into the "path" ambient variables (user and system)
-
-Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
-![install visualc++](https://github.com/cz-8/bhzspleeter/assets/137376594/379e2616-94ea-46b3-944b-d738a5399c9d)
-select these options
-
-_________________________________________
-
-
 !!!this is not a finished product please wait!!!
 
 !!!if the source code does not build on ur machine or anything is broken PLEASE GET IN CONTACT!!!
@@ -93,7 +99,7 @@ Music: asafe
 
 _________________________________________
 
-### last_update @ 23/06/2023 contact: bhzeye@tutanota.com (or u can dm on insta)
+### last_update @ 28/06/2023 contact: bhzeye@tutanota.com (or u can dm on insta)
 
 
 
