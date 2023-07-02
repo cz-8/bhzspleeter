@@ -41,7 +41,9 @@ select these options
 
 
 _________________________________________
-in the future i will be adding a .exe that install fine tuned pre trained models on ur bhzspleeter folder;
+ADDED BHZTK_bhzspleeterpkgwizard built .exe file and the source code
+this is the models downloader script, it downloads the selected models
+and saves them in a folder "pretrained_models" inside the directory u run the program
 _________________________________________
 as shown above there is also a built .exe app for u to download and run the program.
 _________________________________________
