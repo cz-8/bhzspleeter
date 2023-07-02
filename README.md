@@ -4,7 +4,7 @@ _________________________________________
 ### Links:
 ### pre built exe:
 
-https://drive.google.com/file/d/1chVzLE8dWnbIHFCdMbPlFEFqDLfFUHk8/view?usp=drive_link
+https://drive.google.com/file/d/1eWk05DwLXMTbguhqyhKB16iG-Vppy9QU/view?usp=drive_link
 
 Password for pre built exe: 12345
 _________________________________________
