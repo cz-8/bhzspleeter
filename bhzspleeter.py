@@ -1,8 +1,6 @@
 import threading
 import pyaudio
 import wave
-import sys
-import base64
 from tkinter import *
 import os
 import re
@@ -12,11 +10,10 @@ from tkVideoPlayer import TkinterVideo
 import time
 from multiprocessing import freeze_support
 from tkinter import messagebox
-import bhzSPLEET
 import os
 from datetime import datetime
 from dateutil import tz
-
+import bhzSPLEET
 
 RESIZABLE = False
 WIDTH, HEIGHT = 640, 480
@@ -519,16 +516,23 @@ $$$$$$$  |$$ |  $$ |$$$$$$$$\ $$$$$$$  |$$$$$$$  |$$ |\$$$$$$$\ \$$$$$$$\  \$$$$
 	root = Tk()
 	root.geometry(f"{WIDTH}x{HEIGHT}")
 	root.resizable(RESIZABLE, RESIZABLE)
-	root.iconbitmap(f"{PATH0}/assets/favicon.ico")
+	try:
+		root.iconbitmap(f"{PATH0}/assets/favicon.ico")
+	except:
+		pass
 	root.title("BHZSPLEETER")
 	root.config(bg=BG)
 
-
-	player = background_music(root)
-
-	if LET_MUSIC_PLAY:
-		player.play()
-	else:
+	try:
+		player = background_music(root)
+	except:
+		pass
+	try:	
+		if LET_MUSIC_PLAY:
+			player.play()
+		else:
+			pass
+	except:
 		pass
 
 	stems_count_frame = LabelFrame(root)
